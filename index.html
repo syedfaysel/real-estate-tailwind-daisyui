@@ -21,6 +21,7 @@
             'brand-primary': '#E76F51',
             'brand-primary-bg': 'rgb(171, 239, 95)',
             'brand-secondary-bg': 'rgba(171, 239, 95, 0.5)',
+            'brand-dark-bg': 'rgb(28, 28, 28)',
           },
           fontFamily: {
             manrope: ["Manrope", 'sans-serif'],
@@ -36,14 +37,14 @@
 
   <header class="bg-gradient-to-t from-white to-gray-100">
     <nav class="md:container mx-auto">
-      <div class="navbar pt-10">
+      <div class="navbar pt-8">
         <div class="navbar-start">
           <a class="font-bold text-2xl lg:text-3xl"><span
-              class="inline-flex w-6 h-6 lg:w-8  lg:h-8 items-center justify-center  bg-brand-primary-bg rounded-full"><i
+              class="inline-flex w-6 h-6 lg:w-9  lg:h-9 items-center justify-center  bg-brand-primary-bg rounded-full"><i
                 class="fa-solid fa-arrow-right text-black -rotate-45"></i></span> Rinterio</a>
         </div>
         <div class="navbar-center hidden lg:flex text-gray-500">
-          <ul class="menu menu-horizontal px-1 lg:space-x-6 text-lg">
+          <ul class="menu menu-horizontal px-1 lg:space-x-5 text-lg">
             <li class="font-semibold"><a>Home</a></li>
             <li><a>Shop</a></li>
             <li><a>News</a></li>
@@ -52,14 +53,14 @@
         </div>
 
         <div class="navbar-end">
-          <div class="hidden md:flex space-x-4 items-center ">
+          <div class="hidden md:flex space-x-3 items-center ">
             <div class="flex items-center justify-center w-9 h-9  bg-white rounded-full">
               <i class="fa-solid fa-cart-shopping"></i>
             </div>
             <div class="flex items-center justify-center w-9 h-9  bg-white rounded-full">
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <button class="bg-brand-primary-bg px-5 py-3 rounded-full text-black font-bold">Book Consult
+            <button class="bg-brand-primary-bg px-5 py-3 rounded-full text-black font-bold w-auto">Book Consult
               <span class="inline-flex items-center justify-center w-6 h-6  bg-black rounded-full"><i
                   class="fa-solid fa-arrow-right text-white text-lg -rotate-45"></i></span></button>
           </div>
@@ -108,6 +109,46 @@
 
   </header>
 
+
+  <!-- Main section -->
+  <main>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer footer-center bg-brand-dark-bg text-white">
+    <div class="max-w-2xl sm:px-4 py-24 ">
+      <aside>
+        <div class="mb-4">
+          <a class="font-semibold text-4xl">
+            <span class="inline-flex w-9  h-9 items-center justify-center  bg-brand-primary-bg rounded-full">
+              <i class="fa-solid fa-arrow-right text-black -rotate-45"></i>
+            </span>
+            Rinterio
+          </a>
+        </div>
+        <p class="text-gray-500 mb-10">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
+          sleek metal accents.
+        </p>
+      </aside>
+
+      <nav class="mb-10">
+        <ul class="grid grid-cols-1 md:grid-flow-col gap-8 md:gap-20 text-gray-500 font-bold">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="bg-brand-primary-bg px-5 py-3 rounded-full text-black font-bold w-9/12 md:w-auto">Book Consult
+        <span class="inline-flex items-center justify-center w-6 h-6  bg-black rounded-full">
+          <i class="fa-solid fa-arrow-right text-white text-lg -rotate-45"></i>
+        </span>
+      </button>
+    </div>
+  </footer>
 </body>
 
 </html>
