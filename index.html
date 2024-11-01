@@ -90,7 +90,7 @@
 
     <div class="hero p-0 pb-20">
       <div class="hero-content text-center">
-        <div class="max-w-5xl">
+        <div class="max-w-4xl">
           <div class="flex items-center justify-center mb-8 lg:mb-12">
             <img class="w-9/12 lg:w-3/4" src="./assets/banner.png" alt="">
           </div>
@@ -99,7 +99,8 @@
             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
             wood, sleek metal accents, and large windows that flood the space with natural light.
           </p>
-          <button class="w-9/12 md:w-auto bg-brand-secondary-bg px-5 py-3 rounded-full text-black font-bold">View Details
+          <button class="w-9/12 md:w-auto bg-brand-secondary-bg px-5 py-3 rounded-full text-black font-bold">View
+            Details
             <span class="inline-flex items-center justify-center w-6 h-6  bg-brand-primary-bg rounded-full">
               <i class="fa-solid fa-arrow-right text-black text-lg -rotate-45"></i>
             </span>
@@ -116,41 +117,38 @@
 
     <!-- About section -->
     <section>
-      <div class="hero bg-gray-100">
+      <div class="hero bg-gray-100 py-24">
         <div class="hero-content flex-col-reverse lg:flex-row-reverse">
-          <div class="flex items-center justify-center lg:justify-end w-3/4 lg:w-9/12">
+          <div class="flex items-center justify-center lg:justify-end w-3/4 lg:w-full">
             <img src="./assets/Rectangle.png" class="rounded-lg shadow-2xl" />
           </div>
           <div class="">
             <div class="card-actions justify-center md:justify-start mb-4">
               <a class="bg-white px-6 py-2 rounded-full" href=""><span><i
-                class="fa-solid fa-arrow-right text-black text-lg"></i></span>  About Us</a>
+                    class="fa-solid fa-arrow-right text-black text-lg"></i></span> About Us</a>
             </div>
             <h1 class="text-5xl font-bold text-center md:text-start">We design thoughtful, liveable spaces</h1>
-            <p class="py-6 text-center md:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+            <p class="py-6 text-center md:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
             </p>
             <!-- cards -->
-            <div class="flex flex-col md:flex-row lg:flex-col space-y-4">
+            <div class="flex flex-col md:flex-row lg:flex-col space-y-4 gap-3">
               <!-- card item 1 -->
-              <div class="card card-side bg-base-100 shadow-xl w-full md:w-9/12">
+              <div class="card card-side bg-base-100 shadow-xl w-full md:w-[40%] lg:w-11/12">
                 <figure class="pl-5">
-                  <img
-                    src="./assets/commercial.png"
-                    alt="" />
+                  <img src="./assets/commercial.png" alt="" />
                 </figure>
-                <div class="card-body py-7">
+                <div class="card-body">
                   <h2 class="card-title">Commercial</h2>
                   <p>Rinterio works on your dream commercial real estate project</p>
                 </div>
               </div>
-              <!-- card item 2-->
-              <div class="card card-side bg-base-100 shadow-xl w-full md:w-9/12">
+              <!-- card item 1 -->
+              <div class="card card-side bg-base-100 shadow-xl w-full md:w-[40%] lg:w-11/12">
                 <figure class="pl-5">
-                  <img
-                    src="./assets/commercial.png"
-                    alt="" />
+                  <img src="./assets/commercial.png" alt="" />
                 </figure>
-                <div class="card-body py-7">
+                <div class="card-body">
                   <h2 class="card-title">Commercial</h2>
                   <p>Rinterio works on your dream commercial real estate project</p>
                 </div>
@@ -162,8 +160,65 @@
     </section>
 
     <!-- work process section -->
-    <section>
+    <section class="bg-gray-100">
+      <div class="container mx-auto pb-10">
+        <!-- text section -->
+        <div class="text-center">
+          <div class="card-actions justify-center mb-4">
+            <a class="bg-white px-6 py-2 rounded-full" href=""><span><i
+                  class="fa-solid fa-arrow-right text-black text-lg"></i></span> How we works</a>
+          </div>
+          <h1 class="text-5xl font-bold text-center">Our work process</h1>
+          <p class="py-6 text-centert">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+          </p>
+        </div>
 
+        <!-- Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-self-center xl:mx-32">
+
+          <!-- Card 1 -->
+          <div class="card bg-pink-200 w-80 md:w-80 lg:w-full shadow-xl">
+            <div class="card-body">
+              <div>
+                <img src="./assets/concept.png" alt="">
+              </div>
+              <h2 class="card-title">Concept</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="card bg-yellow-200  w-80 md:w-80 lg:w-full shadow-xl">
+            <div class="card-body">
+              <div>
+                <img src="./assets/flow-chart.png" alt="">
+              </div>
+              <h2 class="card-title">Design process</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="card bg-green-200  w-80 md:w-80 lg:w-full shadow-xl">
+            <div class="card-body">
+              <div>
+                <img src="./assets/vision.png" alt="">
+              </div>
+              <h2 class="card-title">Supervision</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="card bg-blue-200  w-80 md:w-80 lg:w-full shadow-xl">
+            <div class="card-body">
+              <div>
+                <img src="./assets/budget-planning.png" alt="">
+              </div>
+              <h2 class="card-title">Budget Planning</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- latest works : challenges -->
