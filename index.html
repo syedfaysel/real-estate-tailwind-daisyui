@@ -88,7 +88,7 @@
 
     <!-- hero section -->
 
-    <div class="hero p-0 pb-20">
+    <div class="hero p-0 pb-8 md:pb-20">
       <div class="hero-content text-center">
         <div class="max-w-4xl">
           <div class="flex items-center justify-center mb-8 lg:mb-12">
@@ -117,19 +117,21 @@
 
     <!-- About section -->
     <section>
-      <div class="hero bg-gray-100 py-24">
+      <div class="hero bg-gray-100 py-8 md:py-24">
         <div class="hero-content flex-col-reverse lg:flex-row-reverse">
           <div class="flex items-center justify-center lg:justify-end w-3/4 lg:w-full">
             <img src="./assets/Rectangle.png" class="rounded-lg shadow-2xl" />
           </div>
-          <div class="">
+          <div class="relative">
+            <div class="absolute -left-16 -top-12 hidden lg:block">
+              <img src="./assets/Vector.png" alt="">
+            </div>
             <div class="card-actions justify-center md:justify-start mb-4">
               <a class="bg-white px-6 py-2 rounded-full" href=""><span><i
                     class="fa-solid fa-arrow-right text-black text-lg"></i></span> About Us</a>
             </div>
-            <h1 class="text-5xl font-bold text-center md:text-start">We design thoughtful, liveable spaces</h1>
-            <p class="py-6 text-center md:text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+            <h1 class="text-2xl md:text-5xl font-bold text-center md:text-start">We design thoughtful, liveable spaces</h1>
+            <p class="py-6 text-center md:text-start max-w-3/4">We design spaces that are both functional and beautiful. Our architectural team works closely with clients to create homes, offices, and commercial properties that align with their vision, lifestyle, and budget.
             </p>
             <!-- cards -->
             <div class="flex flex-col md:flex-row lg:flex-col space-y-4 gap-3">
@@ -143,14 +145,14 @@
                   <p>Rinterio works on your dream commercial real estate project</p>
                 </div>
               </div>
-              <!-- card item 1 -->
+              <!-- card item 2 -->
               <div class="card card-side bg-base-100 shadow-xl w-full md:w-[40%] lg:w-11/12">
                 <figure class="pl-5">
-                  <img src="./assets/commercial.png" alt="" />
+                  <img src="./assets/residential.png" alt="" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Commercial</h2>
-                  <p>Rinterio works on your dream commercial real estate project</p>
+                  <h2 class="card-title">Residential</h2>
+                  <p>Rinterio also works on your dream residential project</p>
                 </div>
               </div>
             </div>
@@ -161,16 +163,15 @@
 
     <!-- work process section -->
     <section class="bg-gray-100">
-      <div class="container mx-auto pb-24">
+      <div class="container mx-auto md:pb-16">
         <!-- text section -->
         <div class="text-center">
           <div class="card-actions justify-center mb-4">
             <a class="bg-white px-6 py-2 rounded-full" href=""><span><i
                   class="fa-solid fa-arrow-right text-black text-lg"></i></span> How we works</a>
           </div>
-          <h1 class="text-5xl font-bold text-center">Our work process</h1>
-          <p class="py-6 text-centert">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+          <h1 class="text-2xl md:text-5xl font-bold text-center">Our work process</h1>
+          <p class="py-6 text-center max-w-9/12 mx-3">Our team consists of seasoned real estate agents, architects, and interior designers who bring years of experience and industry knowledge to each project. With our expertise, you can feel confident you're making the right investment.
           </p>
         </div>
 
@@ -184,7 +185,7 @@
                 <img src="./assets/concept.png" alt="">
               </div>
               <h2 class="card-title">Concept</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>We begin by brainstorming the ideas and concepts</p>
             </div>
           </div>
           <!-- Card 2 -->
@@ -194,7 +195,7 @@
                 <img src="./assets/flow-chart.png" alt="">
               </div>
               <h2 class="card-title">Design process</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>Our expert team start working on the design process</p>
             </div>
           </div>
           <!-- Card 3 -->
@@ -204,7 +205,7 @@
                 <img src="./assets/vision.png" alt="">
               </div>
               <h2 class="card-title">Supervision</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>Real time feedback and supervision throughout entire time</p>
             </div>
           </div>
           <!-- Card 4 -->
@@ -214,7 +215,7 @@
                 <img src="./assets/budget-planning.png" alt="">
               </div>
               <h2 class="card-title">Budget Planning</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>All while considering the budget</p>
             </div>
           </div>
         </div>
@@ -223,16 +224,15 @@
 
     <!-- latest works : challenges -->
     <section class="bg-gray-100">
-      <div class="container mx-auto pt-16 pb-24 max-w-screen-xl">
+      <div class="container mx-auto pt-16 pb-12 md:pb-24 max-w-screen-xl">
         <!-- text section -->
         <div class="text-center">
           <div class="card-actions justify-center mb-4">
             <a class="bg-brand-secondary-bg px-6 py-2 rounded-full" href=""><span><i
                   class="fa-solid fa-arrow-right text-black text-lg"></i></span> Explore our latest works</a>
           </div>
-          <h1 class="text-5xl font-bold text-center">Our Latest Portfolio</h1>
-          <p class="py-6 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+          <h1 class="text-2xl md:text-5xl font-bold text-center">Our Latest Portfolio</h1>
+          <p class="py-6 text-center mx-3">The team's architectural vision transforms your space into something beyond our imagination. It's a perfect blend of style and function.
           </p>
         </div>
 
@@ -245,8 +245,7 @@
             </div>
             <div class="px-2 lg:w-1/2">
               <h2 class="text-lg text-gray-700 font-bold">Commercial</h2>
-              <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing eliqasdfj Lorem, ipsum dolor
-                sit amet consectetur adipisicing elit. Soluta, fuga.</p>
+              <p class="text-gray-500">Our Uptown Loft project redefines workspace design, integrating flexible layouts with eco-friendly materials</p>
               <button class=" md:w-auto  py-3 rounded-full text-black font-bold">View
                 Details
                 <span class="inline-flex items-center justify-center w-6 h-6  bg-brand-primary-bg rounded-full">
@@ -272,8 +271,8 @@
               <img class="w-full" src="./assets/img4.png" alt="">
             </div>
             <div class="px-2 max-w-72">
-              <h2 class="text-lg text-gray-700 font-bold">Commercial</h2>
-              <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing eliqasdfj</p>
+              <h2 class="text-lg text-gray-700 font-bold">Residential</h2>
+              <p class="text-gray-500">Nestled in a peaceful suburb, Cypress Villas are designed for family living.</p>
               <button class=" md:w-auto  py-3 rounded-full text-black font-bold">View
                 Details
                 <span class="inline-flex items-center justify-center w-6 h-6  bg-brand-primary-bg rounded-full">
@@ -293,21 +292,20 @@
 
     <!-- extra meaningful unique section: FAQ -->
     <section class="bg-gray-100">
-      <div class="container mx-auto pb-24">
+      <div class="container mx-auto pb-12 md:pb-24">
         <!-- text section -->
         <div class="text-center">
           <div class="card-actions justify-center mb-4">
             <a class="bg-white px-6 py-2 rounded-full" href=""><span><i
                   class="fa-solid fa-arrow-right text-black text-lg"></i></span> FAQs</a>
           </div>
-          <h1 class="text-5xl font-bold text-center"> Frequently Asked Questions</h1>
-          <p class="py-6 text-centert">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+          <h1 class="text-2xl md:text-5xl font-bold text-center"> Frequently Asked Questions</h1>
+          <p class="py-6 text-centert">What visitors often asked for?
           </p>
         </div>
 
         <!-- Items -->
-        <div class="xl:mx-32 space-y-3">
+        <div class="xl:mx-32 space-y-3 mx-3">
           <div class="collapse collapse-arrow bg-brand-secondary-bg">
             <input type="radio" name="my-accordion-2" checked="checked" />
             <div class="collapse-title text-xl font-medium">Q: What types of properties are available on your website?</div>
@@ -340,22 +338,30 @@
             </div>
           </div>
 
+          <div class="collapse collapse-arrow bg-brand-secondary-bg">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Q: What is included in the rent?</div>
+            <div class="collapse-content">
+              <p>Each property listing will specify which utilities or services (e.g., water, electricity, internet) are included. Many rentals require tenants to cover their own utility costs.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
     <!-- let's connect section -->
     <section class="bg-[url('./assets/bg.jpg')] bg-cover">
-      <div class="container mx-auto pt-16 pb-24">
+      <div class="container mx-auto pt-16 pb-12 md:pb-24">
         <!-- text section -->
         <div class="text-center">
           <div class="card-actions justify-center mb-4">
             <a class="bg-brand-secondary-bg px-6 py-2 rounded-full" href=""><span><i
                   class="fa-solid fa-arrow-right text-black text-lg"></i></span> Let's Connect</a>
           </div>
-          <h1 class="text-5xl font-bold text-center">Let's Discuss Next Project</h1>
-          <p class="py-6 text-centert">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            incidunt illo sequi optio sunt! Fugit beatae repellat quae illo voluptatem!
+          <h1 class="text-2xl md:text-5xl font-bold text-center">Let's Discuss Next Project</h1>
+          <p class="py-6 text-centert mx-3">We’d love to hear from you! Whether you’re interested in buying, selling, designing, or simply exploring possibilities, our team is here to help.
           </p>
         </div>
 
@@ -402,7 +408,7 @@
             Rinterio
           </a>
         </div>
-        <p class="text-gray-500 mb-10">
+        <p class="text-gray-500 mb-10 mx-3">
           The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
           sleek metal accents.
         </p>
