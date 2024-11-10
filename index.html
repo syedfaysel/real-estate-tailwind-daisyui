@@ -222,8 +222,8 @@
     </section>
 
     <!-- latest works : challenges -->
-    <section class="bg-base-100">
-      <div class="container mx-auto pt-16 pb-24">
+    <section class="bg-gray-100">
+      <div class="container mx-auto pt-16 pb-24 max-w-screen-xl">
         <!-- text section -->
         <div class="text-center">
           <div class="card-actions justify-center mb-4">
@@ -236,6 +236,57 @@
           </p>
         </div>
 
+        <!-- Challenging part: cards -->
+        <div class="grid grid-cols-1 lg:grid-cols-8 gap-3 items-stretch justify-stretch justify-items-stretch mx-4">
+          <!-- card 1  -->
+          <div class="flex flex-col lg:flex-row gap-3 lg:col-span-5  rounded-xl p-5 bg-white shadow-md">
+            <div class="lg:w-1/2">
+              <img class="w-full" src="./assets/img1.png" alt="">
+            </div>
+            <div class="px-2 lg:w-1/2">
+              <h2 class="text-lg text-gray-700 font-bold">Commercial</h2>
+              <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing eliqasdfj Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, fuga.</p>
+              <button class=" md:w-auto  py-3 rounded-full text-black font-bold">View
+                Details
+                <span class="inline-flex items-center justify-center w-6 h-6  bg-brand-primary-bg rounded-full">
+                  <i class="fa-solid fa-arrow-right text-black text-lg -rotate-45"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Normal Card -->
+          <div class="lg:col-span-3  rounded-xl p-5 flex items-center justify-center  bg-white shadow-md">
+            <img class="relative w-full" src="./assets/img2.png" alt="">
+          </div>
+
+          <!-- Normal Card -->
+          <div class="lg:col-span-2  rounded-xl p-5 flex items-center justify-center  bg-white shadow-md">
+            <img class="relative w-full" src="./assets/img3.png" alt="">
+          </div>
+
+          <!-- card 3 -->
+          <div class="flex flex-col lg:flex-row gap-3 lg:col-span-4  rounded-xl p-5  bg-white shadow-md">
+            <div class="w-full">
+              <img class="w-full" src="./assets/img4.png" alt="">
+            </div>
+            <div class="px-2 max-w-72">
+              <h2 class="text-lg text-gray-700 font-bold">Commercial</h2>
+              <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing eliqasdfj</p>
+              <button class=" md:w-auto  py-3 rounded-full text-black font-bold">View
+                Details
+                <span class="inline-flex items-center justify-center w-6 h-6  bg-brand-primary-bg rounded-full">
+                  <i class="fa-solid fa-arrow-right text-black text-lg -rotate-45"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- Normal Card -->
+          <div class="lg:col-span-2 rounded-xl p-5 flex items-center justify-center  bg-white shadow-md">
+            <img class="relative w-full" src="./assets/img5.png" alt="">
+          </div>
+
+        </div>
       </div>
     </section>
 
@@ -274,10 +325,11 @@
             <input type="text" placeholder="Email Address*" class="input w-full rounded-full" />
           </div>
           <div class="col-span-full">
-            <textarea placeholder="Write your message here..." class="textarea textarea-lg rounded-2xl w-full min-h-[240px]" ></textarea>
+            <textarea placeholder="Write your message here..."
+              class="textarea textarea-lg rounded-2xl w-full min-h-[240px]"></textarea>
           </div>
           <div class="col-span-full">
-            <button class="w-full bg-brand-primary-bg px-5 py-3 rounded-full text-black font-bold">Send Mail 
+            <button class="w-full bg-brand-primary-bg px-5 py-3 rounded-full text-black font-bold">Send Mail
               <span class="inline-flex items-center justify-center w-6 h-6  bg-black rounded-full">
                 <i class="fa-solid fa-arrow-right text-white text-lg -rotate-45"></i>
               </span>
